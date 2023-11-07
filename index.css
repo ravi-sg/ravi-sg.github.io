@@ -1,4 +1,12 @@
-.frame-div {
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 640px);
+  width: 80rem;
+  height: 12.5rem;
+  object-fit: cover;
+}
+.frame-parent {
   position: relative;
   background-color: #093336;
   width: 100%;
