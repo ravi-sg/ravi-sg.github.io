@@ -9,6 +9,12 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+input::placeholder {
+  font: Nunito;
+  opacity: 0.5;
+  color: #537C80;
+}
+
 body {
   margin: 0;
   line-height: normal;
