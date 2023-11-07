@@ -1,10 +1,9 @@
 .sahaj-gaming-and {
   position: absolute;
   top: 15.88rem;
-  right: 3.53rem;
+  right: 3.5rem;
   font-size: 0.88rem;
   letter-spacing: 0.04em;
-  font-weight: 500;
   color: #519599;
   text-align: left;
 }
@@ -46,7 +45,7 @@
 }
 .social-medias-icon {
   position: absolute;
-  top: 1.38rem;
+  top: 1.5rem;
   left: 0;
   width: 19.59rem;
   height: 3.19rem;
@@ -54,7 +53,7 @@
 .follow-us-on {
   position: absolute;
   top: 0;
-  left: 0.44rem;
+  left: 0.31rem;
   letter-spacing: 0.04em;
   font-weight: 900;
   transform: rotate(0.28deg);
@@ -62,24 +61,24 @@
 }
 .social-medias {
   position: absolute;
-  top: 9.25rem;
+  top: 9.13rem;
   left: 4.38rem;
   width: 19.59rem;
-  height: 4.56rem;
+  height: 4.69rem;
 }
 .privacy-policy {
   text-decoration: none;
+  font-weight: 700;
   color: inherit;
 }
-.div,
+.b,
 .privacy-policy {
   position: relative;
   letter-spacing: 0.04em;
-  font-weight: 500;
 }
 .policies {
   position: absolute;
-  top: 15.88rem;
+  top: 15.81rem;
   left: 4.38rem;
   display: flex;
   flex-direction: row;
@@ -129,11 +128,12 @@
 .payment-partners {
   position: absolute;
   top: 9.25rem;
-  right: 3.53rem;
+  right: 3.5rem;
   width: 20.69rem;
   height: 3.81rem;
+  font-family: var(--font-hoss-round);
 }
-.logo-icon {
+.logo-2-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -150,6 +150,73 @@
   height: 20.5rem;
   overflow: hidden;
 }
+.testimonial-3-card-child {
+  position: absolute;
+  top: 0.25rem;
+  left: calc(50% - 251px);
+  border-radius: var(--br-5xl);
+  width: 31.5rem;
+  height: 21.19rem;
+  object-fit: cover;
+}
+.testimonial-3-card-item {
+  position: absolute;
+  top: -0.07rem;
+  left: calc(50% - 178.2px);
+  width: 8.34rem;
+  height: 8.41rem;
+  object-fit: cover;
+}
+.ludo-game-as {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 128%;
+  font-weight: 500;
+  display: inline-block;
+  width: 21.38rem;
+  flex-shrink: 0;
+}
+.ludo-game-as-a-revolutionary-a-wrapper {
+  position: absolute;
+  top: 8.38rem;
+  left: calc(50% - 211px);
+  height: 8.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.ganesh-pawar,
+.noida-uttar-pradesh,
+.won-3000 {
+  position: absolute;
+  left: 12.44rem;
+  letter-spacing: 0.02em;
+}
+.ganesh-pawar {
+  top: 3rem;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+}
+.noida-uttar-pradesh,
+.won-3000 {
+  top: 4.38rem;
+  font-weight: 600;
+}
+.won-3000 {
+  top: 5.81rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 900;
+  color: var(--color-gold-100);
+}
+.testimonial-3-card {
+  position: relative;
+  width: 26.63rem;
+  height: 17.94rem;
+}
+.testimonial-2-card-child,
 .testimonial-4-card-child {
   position: absolute;
   top: 0.25rem;
@@ -159,106 +226,53 @@
   height: 21.19rem;
   object-fit: cover;
 }
-.testimonial-4-card-item {
+.testimonial-2-card-child {
+  width: 26.63rem;
+}
+.testimonial-2-card-item {
   position: absolute;
   top: -0.07rem;
   left: calc(50% - 178.2px);
+  border-radius: 50%;
   width: 8.34rem;
   height: 8.41rem;
   object-fit: cover;
 }
-.ludo-is-a {
+.testimonial-1-card-child {
   position: absolute;
-  top: 9.56rem;
-  left: 2.81rem;
-  letter-spacing: 0.04em;
-  display: inline-block;
-  width: 21.38rem;
-}
-.anmol-bhardwaj,
-.jammu,
-.won-10000 {
-  position: absolute;
-  left: 12.44rem;
-  letter-spacing: 0.04em;
-}
-.anmol-bhardwaj {
-  top: 3.19rem;
-  font-size: var(--font-size-lg);
-  font-weight: 900;
-}
-.jammu,
-.won-10000 {
-  top: 4.5rem;
-  font-weight: 500;
-}
-.won-10000 {
-  top: 6rem;
-  font-size: var(--font-size-9xl);
-  font-weight: 900;
-  color: var(--color-gold-100);
-}
-.testimonial-3-card-child,
-.testimonial-4-card {
-  position: absolute;
-  top: 2rem;
-  left: calc(50% - 140px);
-  width: 26.63rem;
-  height: 17.94rem;
-}
-.testimonial-3-card-child {
-  top: 0.25rem;
-  left: calc(50% - 253px);
-  border-radius: var(--br-5xl);
-  height: 21.19rem;
-  object-fit: cover;
-}
-.testimonial-2-card-child,
-.testimonial-3-card {
-  position: absolute;
-  top: 2rem;
-  left: calc(50% + 322px);
-  width: 26.63rem;
-  height: 17.94rem;
-}
-.testimonial-2-card-child {
   top: 1.75rem;
   left: calc(50% - 213px);
   border-radius: var(--br-5xl);
+  width: 26.63rem;
   height: 16.19rem;
   object-fit: cover;
 }
-.testimonial-2-card-item {
+.user-photp-icon {
   position: absolute;
   top: 0;
   left: calc(50% - 176px);
-  border-radius: 50%;
   width: 8.06rem;
   height: 8.06rem;
   object-fit: cover;
 }
-.testimonial-2-card {
+.won-5000 {
+  position: absolute;
+  top: 5.75rem;
+  left: 12.44rem;
+  font-size: var(--font-size-9xl);
+  letter-spacing: 0.02em;
+  font-weight: 900;
+  color: var(--color-gold-100);
+}
+.testimonial-3-card-parent {
   position: absolute;
   top: 2rem;
-  left: calc(50% + 784px);
-  width: 26.63rem;
-  height: 17.94rem;
-}
-.testimonial-1-card-child {
-  position: absolute;
-  top: 0.25rem;
-  left: calc(50% - 251px);
-  border-radius: var(--br-5xl);
-  width: 31.5rem;
-  height: 21.19rem;
-  object-fit: cover;
-}
-.testimonial-1-card {
-  position: absolute;
-  top: 2rem;
-  left: calc(50% - 602px);
-  width: 26.63rem;
-  height: 17.94rem;
+  left: 2.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.25rem;
 }
 .testimonial-carousal {
   position: absolute;
@@ -271,13 +285,14 @@
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-white);
-  font-family: var(--font-hoss-round);
+  font-family: var(--font-nunito);
 }
 .for-super-game {
   position: absolute;
-  top: calc(50% - 177.5px);
-  left: calc(50% - 119px);
+  top: calc(50% - 179.5px);
+  left: calc(50% - 116px);
   letter-spacing: 0.04em;
+  font-weight: 600;
   transform: rotate(-0.12deg);
   transform-origin: 0 0;
 }
@@ -291,9 +306,9 @@
 }
 .super-review {
   position: absolute;
-  top: calc(50% - 21.95px);
-  left: calc(50% - 128.2px);
-  letter-spacing: 0.04em;
+  top: calc(50% - 24.95px);
+  left: calc(50% - 124.2px);
+  letter-spacing: 0.02em;
   font-weight: 900;
   transform: rotate(0.28deg);
   transform-origin: 0 0;
@@ -394,33 +409,42 @@
   color: var(--color-white);
   font-family: var(--font-nunito);
 }
-.scan-qr-code {
-  margin-bottom: false;
-}
-.scan-qr-code-tap-on-download {
+.tap-on-download {
   margin: 0;
-  padding-left: false;
+  padding-left: var(--padding-13xl);
 }
-.get-game-on,
-.scan-qr-code-container {
+.scan-qr-code-container,
+.tap-on-download-container {
   position: absolute;
+  top: 2.15rem;
+  left: calc(50% - 170.05px);
   letter-spacing: 0.04em;
+  line-height: 131%;
+  font-weight: 600;
   transform: rotate(-0.12deg);
   transform-origin: 0 0;
 }
 .scan-qr-code-container {
-  top: 7.48rem;
+  top: 0.03rem;
+}
+.get-game-list {
+  position: absolute;
+  top: 7.31rem;
   left: calc(50% - 163.5px);
-  line-height: 131%;
-  font-weight: 600;
+  width: 21.26rem;
+  height: 4.09rem;
 }
 .get-game-on {
+  position: absolute;
   top: 2.7rem;
   left: calc(50% - 147.1px);
   font-size: var(--font-size-21xl);
+  letter-spacing: 0.04em;
   font-weight: 800;
   font-family: var(--font-nunito);
   text-shadow: 0 8.7px 3.75px rgba(0, 0, 0, 0.23), 0 4.1px 0#000;
+  transform: rotate(-0.12deg);
+  transform-origin: 0 0;
 }
 .qr-code-sub-section,
 .qr-icon {
@@ -461,23 +485,24 @@
 }
 .vector-icon {
   position: absolute;
-  top: 0.03rem;
-  left: calc(50% - 155.55px);
+  top: 0.16rem;
+  left: calc(50% - 153.55px);
   width: 1.02rem;
   height: 1.13rem;
 }
 .secure-safe-dhamakedaar {
   position: absolute;
   top: 0;
-  left: calc(50% - 128.45px);
+  left: calc(50% - 126.45px);
   letter-spacing: 0.04em;
+  font-weight: 800;
 }
 .secure-safe {
   position: absolute;
-  top: 5.28rem;
-  left: calc(50% - 154.5px);
-  width: 19.44rem;
-  height: 1.19rem;
+  top: 5.16rem;
+  left: calc(50% - 153.5px);
+  width: 19.19rem;
+  height: 1.38rem;
 }
 .download-button-image-icon {
   position: absolute;
@@ -517,40 +542,43 @@
 .download-group {
   position: absolute;
   top: 28.75rem;
-  left: calc(50% - 475px);
+  left: calc(50% - 474px);
   width: 23.81rem;
-  height: 6.47rem;
+  height: 6.53rem;
   text-align: left;
 }
 .mobile-number-input-child {
   position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
+  width: 102.05%;
+  top: -0.22rem;
+  right: -1.1%;
+  left: -0.96%;
   border-radius: 14.46px;
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 0 4.8px 4.82px rgba(0, 0, 0, 0.21) inset,
-    -1.8px -1.2px 2.41px rgba(0, 0, 0, 0.25),
-    2.4px 1.2px 2.41px rgba(255, 255, 255, 0.17);
+  max-width: 100%;
+  overflow: hidden;
+  height: 4.33rem;
+  object-fit: cover;
+}
+.phone-number-input,
+.span {
+  position: absolute;
+  top: 0;
   height: 3.88rem;
 }
-.div1,
-.enter-your-mobile {
-  position: absolute;
-  top: 1.06rem;
-  left: 6.92%;
+.span {
+  width: 21.69%;
+  left: 0;
   letter-spacing: 0.04em;
   font-weight: 900;
-}
-.enter-your-mobile {
-  width: 70.25%;
-  left: 22.88%;
-  font-weight: 500;
-  color: #4c6668;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.phone-number-input {
+  border: 0;
+  background-color: transparent;
+  left: 5.94rem;
+  width: 21.44rem;
 }
 .mobile-number-input {
   position: absolute;
@@ -569,7 +597,6 @@
   left: 8.41rem;
   font-size: 5rem;
   font-weight: 800;
-  font-family: var(--font-nunito);
   text-shadow: 0 13.2px 5.66px rgba(0, 0, 0, 0.23), 0 6.1px 0#000;
   transform: rotate(-0.12deg);
   transform-origin: 0 0;
@@ -598,9 +625,9 @@
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-white);
-  font-family: var(--font-hoss-round);
+  font-family: var(--font-nunito);
 }
-.logo-icon1 {
+.logo-1-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -628,5 +655,5 @@
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-gold-200);
-  font-family: var(--font-hoss-round);
+  font-family: var(--font-nunito);
 }
