@@ -150,73 +150,6 @@
   height: 20.5rem;
   overflow: hidden;
 }
-.testimonial-3-card-child {
-  position: absolute;
-  top: 0.25rem;
-  left: calc(50% - 251px);
-  border-radius: var(--br-5xl);
-  width: 31.5rem;
-  height: 21.19rem;
-  object-fit: cover;
-}
-.testimonial-3-card-item {
-  position: absolute;
-  top: -0.07rem;
-  left: calc(50% - 178.2px);
-  width: 8.34rem;
-  height: 8.41rem;
-  object-fit: cover;
-}
-.ludo-game-as {
-  position: relative;
-  letter-spacing: 0.02em;
-  line-height: 128%;
-  font-weight: 500;
-  display: inline-block;
-  width: 21.38rem;
-  flex-shrink: 0;
-}
-.ludo-game-as-a-revolutionary-a-wrapper {
-  position: absolute;
-  top: 8.38rem;
-  left: calc(50% - 211px);
-  height: 8.25rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs) var(--padding-21xl);
-  box-sizing: border-box;
-}
-.ganesh-pawar,
-.noida-uttar-pradesh,
-.won-3000 {
-  position: absolute;
-  left: 12.44rem;
-  letter-spacing: 0.02em;
-}
-.ganesh-pawar {
-  top: 3rem;
-  font-size: var(--font-size-xl);
-  font-weight: 900;
-}
-.noida-uttar-pradesh,
-.won-3000 {
-  top: 4.38rem;
-  font-weight: 600;
-}
-.won-3000 {
-  top: 5.81rem;
-  font-size: var(--font-size-9xl);
-  font-weight: 900;
-  color: var(--color-gold-100);
-}
-.testimonial-3-card {
-  position: relative;
-  width: 26.63rem;
-  height: 17.94rem;
-}
-.testimonial-2-card-child,
 .testimonial-4-card-child {
   position: absolute;
   top: 0.25rem;
@@ -226,25 +159,103 @@
   height: 21.19rem;
   object-fit: cover;
 }
-.testimonial-2-card-child {
+.testimonial-4-card-item {
+  position: absolute;
+  top: -0.07rem;
+  left: calc(50% - 178.2px);
+  width: 8.34rem;
+  height: 8.41rem;
+  object-fit: cover;
+}
+.ludo-is-a {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 128%;
+  font-weight: 500;
+  display: inline-block;
+  width: 21.38rem;
+  flex-shrink: 0;
+}
+.ludo-is-a-nice-game-i-really-wrapper {
+  position: absolute;
+  top: 8.5rem;
+  left: calc(50% - 211px);
+  height: 8.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.anmol-bhardwaj,
+.jammu,
+.won-10000 {
+  position: absolute;
+  left: 12.44rem;
+  letter-spacing: 0.02em;
+}
+.anmol-bhardwaj {
+  top: 3rem;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+}
+.jammu,
+.won-10000 {
+  top: 4.38rem;
+  font-weight: 600;
+}
+.won-10000 {
+  top: 5.81rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 900;
+  color: var(--color-gold-100);
+}
+.testimonial-3-card,
+.testimonial-4-card {
+  position: absolute;
+  top: 1.75rem;
+  left: calc(50% - 444px);
   width: 26.63rem;
+  height: 17.94rem;
+  margin: 20;
+}
+.testimonial-3-card {
+  left: calc(50% + 18px);
+}
+.testimonial-2-card-child {
+  position: absolute;
+  top: 0.25rem;
+  left: calc(50% - 253px);
+  border-radius: var(--br-5xl);
+  width: 26.63rem;
+  height: 21.19rem;
+  object-fit: cover;
 }
 .testimonial-2-card-item {
   position: absolute;
   top: -0.07rem;
   left: calc(50% - 178.2px);
   border-radius: 50%;
-  width: 8.34rem;
+  width: 8.06rem;
   height: 8.41rem;
   object-fit: cover;
 }
-.testimonial-1-card-child {
+.testimonial-2-card {
   position: absolute;
   top: 1.75rem;
-  left: calc(50% - 213px);
+  left: calc(50% + 480px);
+  width: 26.63rem;
+  height: 17.94rem;
+  margin: 20;
+}
+.testimonial-1-card-child {
+  position: absolute;
+  top: 0.25rem;
+  left: calc(50% + 53px);
   border-radius: var(--br-5xl);
   width: 26.63rem;
-  height: 16.19rem;
+  height: 21.19rem;
   object-fit: cover;
 }
 .user-photp-icon {
@@ -264,15 +275,13 @@
   font-weight: 900;
   color: var(--color-gold-100);
 }
-.testimonial-3-card-parent {
+.testimonial-1-card {
   position: absolute;
-  top: 2rem;
-  left: 2.38rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 2.25rem;
+  top: 1.75rem;
+  left: calc(50% - 906px);
+  width: 26.63rem;
+  height: 17.94rem;
+  margin: 20;
 }
 .testimonial-carousal {
   position: absolute;
@@ -499,7 +508,7 @@
 }
 .secure-safe {
   position: absolute;
-  top: 5.16rem;
+  top: 5.19rem;
   left: calc(50% - 153.5px);
   width: 19.19rem;
   height: 1.38rem;
@@ -544,7 +553,7 @@
   top: 28.75rem;
   left: calc(50% - 474px);
   width: 23.81rem;
-  height: 6.53rem;
+  height: 6.56rem;
   text-align: left;
 }
 .mobile-number-input-child {
