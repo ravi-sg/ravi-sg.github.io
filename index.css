@@ -150,138 +150,91 @@
   height: 20.5rem;
   overflow: hidden;
 }
-.testimonial-4-card-child {
-  position: absolute;
-  top: 0.25rem;
-  left: calc(50% - 253px);
-  border-radius: var(--br-5xl);
-  width: 31.63rem;
-  height: 21.19rem;
-  object-fit: cover;
-}
-.testimonial-4-card-item {
-  position: absolute;
-  top: -0.07rem;
-  left: calc(50% - 178.2px);
+.frame-child {
+  position: relative;
+  border-radius: 50%;
   width: 8.34rem;
   height: 8.41rem;
   object-fit: cover;
 }
-.ludo-is-a {
+.bangalore-karnataka,
+.rukhmani-prabhakar,
+.won-1000 {
   position: relative;
   letter-spacing: 0.02em;
-  line-height: 128%;
-  font-weight: 500;
-  display: inline-block;
-  width: 21.38rem;
-  flex-shrink: 0;
-}
-.ludo-is-a-nice-game-i-really-wrapper {
-  position: absolute;
-  top: 8.5rem;
-  left: calc(50% - 211px);
-  height: 8.25rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs) var(--padding-21xl);
-  box-sizing: border-box;
-}
-.anmol-bhardwaj,
-.jammu,
-.won-10000 {
-  position: absolute;
-  left: 12.44rem;
-  letter-spacing: 0.02em;
-}
-.anmol-bhardwaj {
-  top: 3rem;
-  font-size: var(--font-size-xl);
   font-weight: 900;
 }
-.jammu,
-.won-10000 {
-  top: 4.38rem;
+.bangalore-karnataka,
+.won-1000 {
+  font-size: var(--font-size-base);
   font-weight: 600;
 }
-.won-10000 {
-  top: 5.81rem;
+.won-1000 {
   font-size: var(--font-size-9xl);
   font-weight: 900;
   color: var(--color-gold-100);
 }
-.testimonial-3-card,
-.testimonial-4-card {
-  position: absolute;
-  top: 1.75rem;
-  left: calc(50% - 444px);
-  width: 26.63rem;
-  height: 17.94rem;
-  margin: 20;
+.ellipse-parent,
+.rukhmani-prabhakar-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-.testimonial-3-card {
-  left: calc(50% + 18px);
+.ellipse-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-14xl);
 }
-.testimonial-2-card-child {
+.ill-never-forget {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 128%;
+  font-weight: 500;
+  display: inline-block;
+  width: 22.31rem;
+}
+.frame-parent {
   position: absolute;
-  top: 0.25rem;
-  left: calc(50% - 253px);
+  top: 3.88rem;
+  left: 26.31rem;
   border-radius: var(--br-5xl);
-  width: 26.63rem;
-  height: 21.19rem;
-  object-fit: cover;
+  background: linear-gradient(166.5deg, #13737a, #053134);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.58) inset,
+    0 4px 4px rgba(14, 185, 199, 0.5) inset, 0 16px 36px 4px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-9xl);
+  gap: var(--gap-4xl);
 }
-.testimonial-2-card-item {
-  position: absolute;
-  top: -0.07rem;
-  left: calc(50% - 178.2px);
+.frame-item {
+  position: relative;
   border-radius: 50%;
   width: 8.06rem;
   height: 8.41rem;
   object-fit: cover;
 }
-.testimonial-2-card {
+.frame-container,
+.frame-group {
   position: absolute;
-  top: 1.75rem;
-  left: calc(50% + 480px);
-  width: 26.63rem;
-  height: 17.94rem;
-  margin: 20;
-}
-.testimonial-1-card-child {
-  position: absolute;
-  top: 0.25rem;
-  left: calc(50% + 53px);
+  top: 3.88rem;
+  left: -4.5rem;
   border-radius: var(--br-5xl);
-  width: 26.63rem;
-  height: 21.19rem;
-  object-fit: cover;
+  background: linear-gradient(166.5deg, #13737a, #053134);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.58) inset,
+    0 4px 4px rgba(14, 185, 199, 0.5) inset, 0 16px 36px 4px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-9xl);
+  gap: var(--gap-4xl);
 }
-.user-photp-icon {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 176px);
-  width: 8.06rem;
-  height: 8.06rem;
-  object-fit: cover;
-}
-.won-5000 {
-  position: absolute;
-  top: 5.75rem;
-  left: 12.44rem;
-  font-size: var(--font-size-9xl);
-  letter-spacing: 0.02em;
-  font-weight: 900;
-  color: var(--color-gold-100);
-}
-.testimonial-1-card {
-  position: absolute;
-  top: 1.75rem;
-  left: calc(50% - 906px);
-  width: 26.63rem;
-  height: 17.94rem;
-  margin: 20;
+.frame-container {
+  left: 57.13rem;
 }
 .testimonial-carousal {
   position: absolute;
@@ -292,14 +245,12 @@
   height: 24.81rem;
   overflow-x: scroll;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
-  font-family: var(--font-nunito);
 }
 .for-super-game {
   position: absolute;
   top: calc(50% - 179.5px);
   left: calc(50% - 116px);
+  font-size: 1.88rem;
   letter-spacing: 0.04em;
   font-weight: 600;
   transform: rotate(-0.12deg);
@@ -341,7 +292,7 @@
   left: 0;
   background-color: var(--color-gray-100);
   overflow: hidden;
-  font-size: 1.88rem;
+  font-size: var(--font-size-xl);
   color: var(--color-white);
 }
 .win-real-cash-image-icon {
@@ -477,40 +428,44 @@
     1.8px 0.9px 1.77px rgba(255, 255, 255, 0.17);
   width: 58.19rem;
 }
-.qr-code-section {
+.qr-code-section,
+.vector-icon {
   position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.qr-code-section {
   height: 10.29%;
   width: 100%;
   top: 27.36%;
   right: 0;
   bottom: 62.35%;
-  left: 0;
   background-color: #0c4649;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-inherit);
   color: var(--color-white);
   font-family: var(--font-inherit);
 }
 .vector-icon {
-  position: absolute;
+  width: 5.34%;
   top: 0.16rem;
-  left: calc(50% - 153.55px);
-  width: 1.02rem;
+  right: 94.66%;
+  max-width: 100%;
   height: 1.13rem;
 }
 .secure-safe-dhamakedaar {
   position: absolute;
   top: 0;
-  left: calc(50% - 126.45px);
+  left: 8.82%;
   letter-spacing: 0.04em;
   font-weight: 800;
 }
 .secure-safe {
   position: absolute;
+  width: 80.6%;
   top: 5.19rem;
-  left: calc(50% - 153.5px);
-  width: 19.19rem;
+  right: 9.69%;
+  left: 9.71%;
   height: 1.38rem;
 }
 .download-button-image-icon {
@@ -550,9 +505,10 @@
 }
 .download-group {
   position: absolute;
+  width: 29.77%;
   top: 28.75rem;
-  left: calc(50% - 474px);
-  width: 23.81rem;
+  right: 57.27%;
+  left: 12.97%;
   height: 6.56rem;
   text-align: left;
 }

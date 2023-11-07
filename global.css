@@ -42,10 +42,14 @@ body {
   --color-gold: #fce623;
   --color-gold-200: #eed920;
 
+  /* Gaps */
+  --gap-4xl: 1.44rem;
+  --gap-14xl: 2.06rem;
+
   /* Paddings */
   --padding-13xl: 2rem;
-  --padding-3xs: 0.63rem;
-  --padding-21xl: 2.5rem;
+  --padding-xs: 0.75rem;
+  --padding-9xl: 1.75rem;
 
   /* Border radiuses */
   --br-17xl: 36px;
