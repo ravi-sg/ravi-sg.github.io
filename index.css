@@ -176,7 +176,7 @@
 }
 .for-super-game {
   position: absolute;
-  top: 7.22rem;
+  top: calc(50% - 198.5px);
   left: calc(50% - 119px);
   letter-spacing: 0.04em;
   transform: rotate(-0.12deg);
@@ -283,13 +283,15 @@
   left: 0;
   width: 80rem;
   height: 17.94rem;
-  overflow-x: auto;
+  overflow-x: scroll;
   text-align: left;
   font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-hoss-round);
 }
 .super-review-group-child {
   position: absolute;
-  top: 0.04rem;
+  top: calc(50% - 28.95px);
   left: calc(50% - 149.1px);
   border-radius: 11.09px;
   width: 18.54rem;
@@ -297,7 +299,7 @@
 }
 .super-review {
   position: absolute;
-  top: 0.48rem;
+  top: calc(50% - 21.95px);
   left: calc(50% - 128.2px);
   letter-spacing: 0.04em;
   font-weight: 900;
@@ -306,7 +308,7 @@
 }
 .super-review-group {
   position: absolute;
-  top: 3.37rem;
+  top: calc(50% - 260.1px);
   left: calc(50% - 150px);
   width: 18.79rem;
   height: 3.69rem;
@@ -315,11 +317,13 @@
 }
 .section-testimonials {
   position: absolute;
-  top: 134.75rem;
-  left: calc(50% - 640px);
+  height: 20.58%;
+  width: 100%;
+  top: 70.67%;
+  right: 0;
+  bottom: 8.75%;
+  left: 0;
   background-color: var(--color-gray-100);
-  width: 80rem;
-  height: 39.25rem;
   overflow: hidden;
   font-size: 1.88rem;
   color: var(--color-white);
