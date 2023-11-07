@@ -1,78 +1,50 @@
-.group-child {
+.sahaj-gaming-and {
   position: absolute;
-  top: -2.61rem;
-  left: -1.94rem;
-  background-color: #093235;
-  width: 38.16rem;
-  height: 67.78rem;
-  display: none;
+  top: 15.88rem;
+  right: 3.53rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #519599;
+  text-align: left;
 }
-.frame-28924-1,
-.ludo-icon,
-.shape-1-icon {
-  position: absolute;
-  top: -0.07rem;
-  left: -0.71rem;
-  width: 5.41rem;
-  height: 5.43rem;
-  object-fit: cover;
-}
-.ludo-icon,
-.shape-1-icon {
-  top: 0.67rem;
-  left: 3.66rem;
-  width: 10.94rem;
-  height: 4.59rem;
-}
-.ludo-icon {
-  top: 0.53rem;
-  left: 4.36rem;
-  width: 9.74rem;
-  height: 3.56rem;
-}
-.rectangle-parent {
-  position: absolute;
-  top: 0.03rem;
-  left: 0.01rem;
-  width: 14.11rem;
-  height: 4.09rem;
-}
-.footer-section-inner {
-  position: absolute;
-  top: 1.56rem;
-  left: 4.75rem;
-  width: 14.13rem;
-  height: 4.13rem;
-}
-.logos-youtube-icon {
+.facebook,
+.instagram,
+.twitter,
+.youtube {
+  text-decoration: none;
   position: absolute;
   top: 0;
+  height: 3.19rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.youtube {
   left: 0;
   width: 3.69rem;
-  height: 3.19rem;
-  object-fit: cover;
+  background-image: url(./public/logos-youtubeicon@2x.png);
 }
-.logos-facebook-icon,
-.logos-twitter-icon,
-.skill-icons-instagram {
-  position: absolute;
-  top: 0;
+.facebook,
+.instagram,
+.twitter {
   left: 5.81rem;
   width: 3.38rem;
-  height: 3.19rem;
-  object-fit: cover;
+  background-image: url(./public/logos-twitter@2x.png);
 }
-.logos-facebook-icon,
-.skill-icons-instagram {
+.facebook,
+.instagram {
   left: 11.25rem;
   width: 3rem;
+  background-image: url(./public/skillicons-instagram@2x.png);
 }
-.logos-facebook-icon {
+.facebook {
   left: 16.41rem;
   width: 3.19rem;
   height: 3.18rem;
+  background-image: url(./public/logos-facebook@2x.png);
 }
-.logos-youtube-icon-parent {
+.social-medias-icon {
   position: absolute;
   top: 1.38rem;
   left: 0;
@@ -82,13 +54,13 @@
 .follow-us-on {
   position: absolute;
   top: 0;
-  left: calc(50% - 149.75px);
+  left: 0.44rem;
   letter-spacing: 0.04em;
   font-weight: 900;
   transform: rotate(0.28deg);
   transform-origin: 0 0;
 }
-.group-parent {
+.social-medias {
   position: absolute;
   top: 9.25rem;
   left: 4.38rem;
@@ -96,11 +68,16 @@
   height: 4.56rem;
 }
 .privacy-policy {
+  text-decoration: none;
+  color: inherit;
+}
+.div,
+.privacy-policy {
   position: relative;
   letter-spacing: 0.04em;
   font-weight: 500;
 }
-.privacy-policy-parent {
+.policies {
   position: absolute;
   top: 15.88rem;
   left: 4.38rem;
@@ -112,140 +89,146 @@
   font-size: 0.97rem;
   color: var(--color-white);
 }
-.payment-partners {
+.payment-partners1 {
   position: absolute;
   top: 0;
-  left: calc(50% - 160.4px);
+  right: 10.99rem;
   letter-spacing: 0.04em;
   font-weight: 900;
   transform: rotate(0.28deg);
   transform-origin: 0 0;
 }
 .cashfreelogo-icon,
-.juspay-logo-1,
-.white-icon {
+.razorpay-logo-icon {
   position: absolute;
   top: 0;
+  right: 14.06rem;
+  width: 6.63rem;
   height: 1.75rem;
   object-fit: cover;
 }
-.cashfreelogo-icon {
-  left: 0;
-  width: 6.63rem;
-}
-.juspay-logo-1,
-.white-icon {
-  left: 8rem;
+.razorpay-logo-icon {
+  right: 6.69rem;
   width: 6rem;
 }
-.juspay-logo-1 {
-  left: 15.38rem;
-  width: 5.31rem;
-}
-.cashfreelogo-parent {
+.juspay-logo-1,
+.partners-icon {
   position: absolute;
-  top: 2.06rem;
-  left: 0;
-  width: 20.69rem;
+  right: 0;
   height: 1.75rem;
 }
-.payment-partners-parent {
+.juspay-logo-1 {
+  top: 0;
+  width: 5.31rem;
+  object-fit: cover;
+}
+.partners-icon {
+  top: 2.06rem;
+  width: 20.69rem;
+}
+.payment-partners {
   position: absolute;
   top: 9.25rem;
-  left: calc(50% + 252.5px);
+  right: 3.53rem;
   width: 20.69rem;
   height: 3.81rem;
 }
-.sahaj-gaming-and {
+.logo-icon {
   position: absolute;
-  top: 15.88rem;
-  left: 49.72rem;
-  font-size: 0.88rem;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  color: #519599;
-  text-align: left;
+  top: 0;
+  left: 0;
+  width: 22.81rem;
+  height: 7.63rem;
+  object-fit: cover;
 }
 .footer-section {
   position: absolute;
-  top: 174rem;
-  left: calc(50% - 640px);
-  width: 80rem;
+  width: 100%;
+  top: 171.38rem;
+  right: 0;
+  left: 0;
   height: 20.5rem;
   overflow: hidden;
 }
-.for-super-game {
+.testimonial-4-card-child {
   position: absolute;
-  top: calc(50% - 198.5px);
-  left: calc(50% - 119px);
-  letter-spacing: 0.04em;
-  transform: rotate(-0.12deg);
-  transform-origin: 0 0;
-}
-.testimonial-1-card-child {
-  position: absolute;
-  top: 1.75rem;
-  left: calc(50% - 213px);
+  top: 0.25rem;
+  left: calc(50% - 253px);
   border-radius: var(--br-5xl);
-  background: linear-gradient(166.5deg, #13737a, #053134);
-  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.58) inset,
-    0 4px 4px rgba(14, 185, 199, 0.5) inset, 0 16px 36px 4px #000;
-  width: 26.63rem;
-  height: 16.19rem;
+  width: 31.63rem;
+  height: 21.19rem;
+  object-fit: cover;
 }
-.testimonial-1-card-item {
+.testimonial-4-card-item {
   position: absolute;
   top: -0.07rem;
   left: calc(50% - 178.2px);
-  border-radius: 50%;
   width: 8.34rem;
   height: 8.41rem;
   object-fit: cover;
 }
-.recently-i-played {
+.ludo-is-a {
   position: absolute;
   top: 9.56rem;
   left: 2.81rem;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   width: 21.38rem;
 }
-.dehradun-uttrakhand,
-.devashish-tomar,
-.won-30000 {
+.anmol-bhardwaj,
+.jammu,
+.won-10000 {
   position: absolute;
   left: 12.44rem;
   letter-spacing: 0.04em;
 }
-.devashish-tomar {
+.anmol-bhardwaj {
   top: 3.19rem;
   font-size: var(--font-size-lg);
   font-weight: 900;
 }
-.dehradun-uttrakhand,
-.won-30000 {
+.jammu,
+.won-10000 {
   top: 4.5rem;
   font-weight: 500;
 }
-.won-30000 {
+.won-10000 {
   top: 6rem;
   font-size: var(--font-size-9xl);
   font-weight: 900;
   color: var(--color-gold-100);
 }
-.testimonial-1-card,
-.testimonial-1-card1 {
+.testimonial-3-card-child,
+.testimonial-4-card {
   position: absolute;
-  top: 0;
-  left: calc(50% - 241px);
+  top: 2rem;
+  left: calc(50% - 140px);
   width: 26.63rem;
   height: 17.94rem;
 }
-.testimonial-1-card1 {
-  left: calc(50% + 221px);
+.testimonial-3-card-child {
+  top: 0.25rem;
+  left: calc(50% - 253px);
+  border-radius: var(--br-5xl);
+  height: 21.19rem;
+  object-fit: cover;
 }
-.testimonial-1-card-child1 {
+.testimonial-2-card-child,
+.testimonial-3-card {
+  position: absolute;
+  top: 2rem;
+  left: calc(50% + 322px);
+  width: 26.63rem;
+  height: 17.94rem;
+}
+.testimonial-2-card-child {
+  top: 1.75rem;
+  left: calc(50% - 213px);
+  border-radius: var(--br-5xl);
+  height: 16.19rem;
+  object-fit: cover;
+}
+.testimonial-2-card-item {
   position: absolute;
   top: 0;
   left: calc(50% - 176px);
@@ -254,42 +237,51 @@
   height: 8.06rem;
   object-fit: cover;
 }
-.testimonial-1-card2 {
+.testimonial-2-card {
   position: absolute;
-  top: 0;
-  left: calc(50% + 683px);
+  top: 2rem;
+  left: calc(50% + 784px);
   width: 26.63rem;
   height: 17.94rem;
 }
-.testimonial-1-card-child3 {
+.testimonial-1-card-child {
   position: absolute;
-  top: -0.07rem;
-  left: calc(50% - 150px);
-  border-radius: 50%;
-  width: 8.06rem;
-  height: 8.41rem;
+  top: 0.25rem;
+  left: calc(50% - 251px);
+  border-radius: var(--br-5xl);
+  width: 31.5rem;
+  height: 21.19rem;
   object-fit: cover;
 }
-.testimonial-1-card3 {
+.testimonial-1-card {
   position: absolute;
-  top: 0;
-  left: calc(50% - 703px);
+  top: 2rem;
+  left: calc(50% - 602px);
   width: 26.63rem;
   height: 17.94rem;
 }
-.testimonial-1-card-parent {
+.testimonial-carousal {
   position: absolute;
-  top: 13.81rem;
+  width: 100%;
+  top: 11.81rem;
+  right: 0;
   left: 0;
-  width: 80rem;
-  height: 17.94rem;
+  height: 24.81rem;
   overflow-x: scroll;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-hoss-round);
 }
-.super-review-group-child {
+.for-super-game {
+  position: absolute;
+  top: calc(50% - 177.5px);
+  left: calc(50% - 119px);
+  letter-spacing: 0.04em;
+  transform: rotate(-0.12deg);
+  transform-origin: 0 0;
+}
+.super-review-image-icon {
   position: absolute;
   top: calc(50% - 28.95px);
   left: calc(50% - 149.1px);
@@ -308,20 +300,20 @@
 }
 .super-review-group {
   position: absolute;
-  top: calc(50% - 260.1px);
+  top: calc(50% - 239.1px);
   left: calc(50% - 150px);
   width: 18.79rem;
   height: 3.69rem;
   font-size: 2.25rem;
   color: var(--color-gray-100);
 }
-.section-testimonials {
+.testimonial-section {
   position: absolute;
-  height: 20.58%;
+  height: 19.09%;
   width: 100%;
-  top: 70.67%;
+  top: 70.23%;
   right: 0;
-  bottom: 8.75%;
+  bottom: 10.68%;
   left: 0;
   background-color: var(--color-gray-100);
   overflow: hidden;
@@ -390,7 +382,7 @@
 .ludo-description-section {
   position: absolute;
   top: 72.25rem;
-  left: 0;
+  left: calc(50% - 640px);
   width: 80rem;
   display: flex;
   flex-direction: row;
@@ -454,12 +446,13 @@
 }
 .qr-code-section {
   position: absolute;
-  height: 10.36%;
-  top: 27.53%;
-  bottom: 62.11%;
-  left: calc(50% - 640px);
+  height: 10.29%;
+  width: 100%;
+  top: 27.36%;
+  right: 0;
+  bottom: 62.35%;
+  left: 0;
   background-color: #0c4649;
-  width: 80rem;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-inherit);
@@ -481,84 +474,90 @@
 }
 .secure-safe {
   position: absolute;
-  top: 5.78rem;
-  left: calc(50% - 156px);
+  top: 5.28rem;
+  left: calc(50% - 154.5px);
   width: 19.44rem;
   height: 1.19rem;
 }
+.download-button-image-icon {
+  position: absolute;
+  top: -0.25rem;
+  left: calc(50% - 198.4px);
+  border-radius: 64px;
+  width: 25.42rem;
+  height: 5.98rem;
+}
 .download-1ludo {
-  position: relative;
+  position: absolute;
+  top: 0.88rem;
+  left: calc(50% - 132.8px);
   font-size: 1.63rem;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-family: var(--font-nunito);
   color: var(--color-white);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16.68rem;
   text-shadow: 0 6.9px 2.97px rgba(0, 0, 0, 0.31), 0 3.2px 0#154413;
 }
 .download-button {
   cursor: pointer;
   border: 0;
-  padding: 1.13rem 3.75rem;
+  padding: 0;
   background-color: transparent;
   position: absolute;
   top: 0;
-  left: calc(50% - 178px);
-  border-radius: 64px;
-  background: linear-gradient(180deg, #377605, #acc515);
-  box-shadow: 0 1px 1.48px rgba(57, 121, 6, 0.17) inset,
-    0-1.5px 1.98px rgba(255, 236, 135, 0.65) inset,
-    0 2px 1.98px rgba(82, 142, 9, 0.13) inset,
-    0 5.9px 9.39px rgba(255, 255, 255, 0.5) inset,
-    4.9px 8.9px 12.86px rgba(0, 0, 0, 0.46),
-    0-4.4px 1.98px rgba(255, 255, 255, 0.28) inset;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  left: calc(50% - 190.5px);
+  width: 23.81rem;
+  height: 4.38rem;
 }
 .download-group {
   position: absolute;
-  top: 28.25rem;
-  left: calc(50% - 461px);
-  width: 22.25rem;
-  height: 6.97rem;
+  top: 28.75rem;
+  left: calc(50% - 475px);
+  width: 23.81rem;
+  height: 6.47rem;
   text-align: left;
 }
 .mobile-number-input-child {
   position: absolute;
+  width: 100%;
   top: 0;
+  right: 0;
   left: 0;
   border-radius: 14.46px;
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: 0 4.8px 4.82px rgba(0, 0, 0, 0.21) inset,
     -1.8px -1.2px 2.41px rgba(0, 0, 0, 0.25),
     2.4px 1.2px 2.41px rgba(255, 255, 255, 0.17);
-  width: 27.38rem;
   height: 3.88rem;
 }
 .div1,
 .enter-your-mobile {
   position: absolute;
   top: 1.06rem;
-  left: 1.89rem;
+  left: 6.92%;
   letter-spacing: 0.04em;
   font-weight: 900;
 }
 .enter-your-mobile {
-  left: 6.26rem;
+  width: 70.25%;
+  left: 22.88%;
   font-weight: 500;
   color: #4c6668;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 19.23rem;
 }
 .mobile-number-input {
   position: absolute;
+  width: 34.22%;
   top: 22.94rem;
-  left: 8.63rem;
-  width: 27.38rem;
+  right: 55%;
+  left: 10.78%;
   height: 3.88rem;
   font-size: 1.36rem;
   color: #537c80;
@@ -590,9 +589,9 @@
 }
 .main-section {
   position: absolute;
-  height: 23.6%;
-  top: 3.93%;
-  bottom: 72.47%;
+  height: 23.45%;
+  top: 3.91%;
+  bottom: 72.64%;
   left: calc(50% - 640px);
   width: 80rem;
   overflow: hidden;
@@ -601,7 +600,7 @@
   color: var(--color-white);
   font-family: var(--font-hoss-round);
 }
-.logo-icon {
+.logo-icon1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -625,7 +624,7 @@
 .parent-frame {
   position: relative;
   background-color: #093336;
-  height: 190.69rem;
+  height: 191.88rem;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-gold-200);
