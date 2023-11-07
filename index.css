@@ -1,94 +1,402 @@
-.footer,
-.section-testimonials {
+.group-child {
   position: absolute;
-  top: 137.56rem;
+  top: -2.61rem;
+  left: -1.94rem;
+  background-color: #093235;
+  width: 38.16rem;
+  height: 67.78rem;
+  display: none;
+}
+.frame-28924-1,
+.ludo-icon,
+.shape-1-icon {
+  position: absolute;
+  top: -0.07rem;
+  left: -0.71rem;
+  width: 5.41rem;
+  height: 5.43rem;
+  object-fit: cover;
+}
+.ludo-icon,
+.shape-1-icon {
+  top: 0.67rem;
+  left: 3.66rem;
+  width: 10.94rem;
+  height: 4.59rem;
+}
+.ludo-icon {
+  top: 0.53rem;
+  left: 4.36rem;
+  width: 9.74rem;
+  height: 3.56rem;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0.03rem;
+  left: 0.01rem;
+  width: 14.11rem;
+  height: 4.09rem;
+}
+.footer-section-inner {
+  position: absolute;
+  top: 1.56rem;
+  left: 4.75rem;
+  width: 14.13rem;
+  height: 4.13rem;
+}
+.logos-youtube-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.69rem;
+  height: 3.19rem;
+  object-fit: cover;
+}
+.logos-facebook-icon,
+.logos-twitter-icon,
+.skill-icons-instagram {
+  position: absolute;
+  top: 0;
+  left: 5.81rem;
+  width: 3.38rem;
+  height: 3.19rem;
+  object-fit: cover;
+}
+.logos-facebook-icon,
+.skill-icons-instagram {
+  left: 11.25rem;
+  width: 3rem;
+}
+.logos-facebook-icon {
+  left: 16.41rem;
+  width: 3.19rem;
+  height: 3.18rem;
+}
+.logos-youtube-icon-parent {
+  position: absolute;
+  top: 1.38rem;
+  left: 0;
+  width: 19.59rem;
+  height: 3.19rem;
+}
+.follow-us-on {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 149.75px);
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  transform: rotate(0.28deg);
+  transform-origin: 0 0;
+}
+.group-parent {
+  position: absolute;
+  top: 9.25rem;
+  left: 4.38rem;
+  width: 19.59rem;
+  height: 4.56rem;
+}
+.privacy-policy {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.privacy-policy-parent {
+  position: absolute;
+  top: 15.88rem;
+  left: 4.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.14rem;
+  font-size: 0.97rem;
+  color: var(--color-white);
+}
+.payment-partners {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 160.4px);
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  transform: rotate(0.28deg);
+  transform-origin: 0 0;
+}
+.cashfreelogo-icon,
+.juspay-logo-1,
+.white-icon {
+  position: absolute;
+  top: 0;
+  height: 1.75rem;
+  object-fit: cover;
+}
+.cashfreelogo-icon {
+  left: 0;
+  width: 6.63rem;
+}
+.juspay-logo-1,
+.white-icon {
+  left: 8rem;
+  width: 6rem;
+}
+.juspay-logo-1 {
+  left: 15.38rem;
+  width: 5.31rem;
+}
+.cashfreelogo-parent {
+  position: absolute;
+  top: 2.06rem;
+  left: 0;
+  width: 20.69rem;
+  height: 1.75rem;
+}
+.payment-partners-parent {
+  position: absolute;
+  top: 9.25rem;
+  left: calc(50% + 252.5px);
+  width: 20.69rem;
+  height: 3.81rem;
+}
+.sahaj-gaming-and {
+  position: absolute;
+  top: 15.88rem;
+  left: 49.72rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #519599;
+  text-align: left;
+}
+.footer-section {
+  position: absolute;
+  top: 174rem;
   left: calc(50% - 640px);
   width: 80rem;
-  height: 32.13rem;
+  height: 20.5rem;
   overflow: hidden;
 }
+.for-super-game {
+  position: absolute;
+  top: 7.22rem;
+  left: calc(50% - 119px);
+  letter-spacing: 0.04em;
+  transform: rotate(-0.12deg);
+  transform-origin: 0 0;
+}
+.testimonial-1-card-child {
+  position: absolute;
+  top: 1.75rem;
+  left: calc(50% - 213px);
+  border-radius: var(--br-5xl);
+  background: linear-gradient(166.5deg, #13737a, #053134);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.58) inset,
+    0 4px 4px rgba(14, 185, 199, 0.5) inset, 0 16px 36px 4px #000;
+  width: 26.63rem;
+  height: 16.19rem;
+}
+.testimonial-1-card-item {
+  position: absolute;
+  top: -0.07rem;
+  left: calc(50% - 178.2px);
+  border-radius: 50%;
+  width: 8.34rem;
+  height: 8.41rem;
+  object-fit: cover;
+}
+.recently-i-played {
+  position: absolute;
+  top: 9.56rem;
+  left: 2.81rem;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  width: 21.38rem;
+}
+.dehradun-uttrakhand,
+.devashish-tomar,
+.won-30000 {
+  position: absolute;
+  left: 12.44rem;
+  letter-spacing: 0.04em;
+}
+.devashish-tomar {
+  top: 3.19rem;
+  font-size: var(--font-size-lg);
+  font-weight: 900;
+}
+.dehradun-uttrakhand,
+.won-30000 {
+  top: 4.5rem;
+  font-weight: 500;
+}
+.won-30000 {
+  top: 6rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 900;
+  color: var(--color-gold-100);
+}
+.testimonial-1-card,
+.testimonial-1-card1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 241px);
+  width: 26.63rem;
+  height: 17.94rem;
+}
+.testimonial-1-card1 {
+  left: calc(50% + 221px);
+}
+.testimonial-1-card-child1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 176px);
+  border-radius: 50%;
+  width: 8.06rem;
+  height: 8.06rem;
+  object-fit: cover;
+}
+.testimonial-1-card2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 683px);
+  width: 26.63rem;
+  height: 17.94rem;
+}
+.testimonial-1-card-child3 {
+  position: absolute;
+  top: -0.07rem;
+  left: calc(50% - 150px);
+  border-radius: 50%;
+  width: 8.06rem;
+  height: 8.41rem;
+  object-fit: cover;
+}
+.testimonial-1-card3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 703px);
+  width: 26.63rem;
+  height: 17.94rem;
+}
+.testimonial-1-card-parent {
+  position: absolute;
+  top: 13.81rem;
+  left: 0;
+  width: 80rem;
+  height: 17.94rem;
+  overflow-x: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.super-review-group-child {
+  position: absolute;
+  top: 0.04rem;
+  left: calc(50% - 149.1px);
+  border-radius: 11.09px;
+  width: 18.54rem;
+  height: 3.66rem;
+}
+.super-review {
+  position: absolute;
+  top: 0.48rem;
+  left: calc(50% - 128.2px);
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  transform: rotate(0.28deg);
+  transform-origin: 0 0;
+}
+.super-review-group {
+  position: absolute;
+  top: 3.37rem;
+  left: calc(50% - 150px);
+  width: 18.79rem;
+  height: 3.69rem;
+  font-size: 2.25rem;
+  color: var(--color-gray-100);
+}
 .section-testimonials {
-  top: 138rem;
-  display: none;
+  position: absolute;
+  top: 134.75rem;
+  left: calc(50% - 640px);
+  background-color: var(--color-gray-100);
+  width: 80rem;
+  height: 39.25rem;
+  overflow: hidden;
+  font-size: 1.88rem;
+  color: var(--color-white);
+}
+.win-real-cash-image-icon {
+  position: relative;
+  width: 40rem;
+  height: 31.25rem;
+  object-fit: cover;
 }
 .a-delightful-twist,
 .win-real-cash {
   position: absolute;
-  top: 8.85rem;
-  left: calc(50% - 0px);
-  letter-spacing: 0.04em;
-  font-weight: 900;
   transform: rotate(-0.12deg);
   transform-origin: 0 0;
 }
 .a-delightful-twist {
-  top: 13.49rem;
-  left: calc(50% + 0.1px);
-  font-size: var(--font-size-5xl);
-  font-weight: 500;
-  color: var(--color-white);
-  text-align: left;
+  top: 6.41rem;
+  left: calc(50% - 237.9px);
+  letter-spacing: 0.02em;
+  font-weight: 600;
   display: flex;
   align-items: center;
   width: 29.82rem;
 }
-.real-cash-image-icon,
-.win-real-cash-parent {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 33.5rem;
+.win-real-cash {
+  top: 2.16rem;
+  left: calc(50% - 241px);
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  color: var(--color-gold);
+  text-align: center;
 }
-.real-cash-image-icon {
-  width: 39.94rem;
-  object-fit: cover;
-}
-.win-real-cash-parent {
-  width: 80rem;
+.win-real-cash-text {
+  position: relative;
+  width: 40rem;
+  height: 20.5rem;
 }
 .easy-withdrawals,
 .withdrawals-on-our {
   position: absolute;
-  top: 8.68rem;
-  left: calc(50% - 463px);
-  letter-spacing: 0.04em;
-  font-weight: 900;
   transform: rotate(-0.12deg);
   transform-origin: 0 0;
 }
 .withdrawals-on-our {
-  top: 13.32rem;
-  font-size: var(--font-size-5xl);
-  font-weight: 500;
-  color: var(--color-white);
-  text-align: left;
+  top: 7.36rem;
+  left: calc(50% - 226px);
+  letter-spacing: 0.02em;
+  font-weight: 600;
   display: flex;
   align-items: center;
   width: 28.94rem;
 }
-.easy-withdrawal-image-icon {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 40.06rem;
-  height: 31.5rem;
-  object-fit: cover;
+.easy-withdrawals {
+  top: 3.11rem;
+  left: calc(50% - 228px);
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  color: var(--color-gold);
+  text-align: center;
 }
-.easy-withdrawals-parent {
+.ludo-description-section {
   position: absolute;
-  top: 28.81rem;
+  top: 72.25rem;
   left: 0;
   width: 80rem;
-  height: 31.5rem;
-}
-.section-usps {
-  position: absolute;
-  height: 33.33%;
-  top: 42.69%;
-  bottom: 23.97%;
-  left: calc(50% - 640px);
-  width: 80rem;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
 }
 .scan-qr-code {
   margin-bottom: false;
@@ -108,14 +416,14 @@
   top: 7.48rem;
   left: calc(50% - 163.5px);
   line-height: 131%;
-  font-weight: 500;
+  font-weight: 600;
 }
 .get-game-on {
-  top: 2.89rem;
+  top: 2.7rem;
   left: calc(50% - 147.1px);
   font-size: var(--font-size-21xl);
-  font-weight: 900;
-  font-family: var(--font-hoss-round);
+  font-weight: 800;
+  font-family: var(--font-nunito);
   text-shadow: 0 8.7px 3.75px rgba(0, 0, 0, 0.23), 0 4.1px 0#000;
 }
 .qr-code-sub-section,
@@ -142,9 +450,9 @@
 }
 .qr-code-section {
   position: absolute;
-  height: 10.92%;
-  top: 31.78%;
-  bottom: 57.31%;
+  height: 10.36%;
+  top: 27.53%;
+  bottom: 62.11%;
   left: calc(50% - 640px);
   background-color: #0c4649;
   width: 80rem;
@@ -176,11 +484,19 @@
 }
 .download-1ludo {
   position: relative;
+  font-size: 1.63rem;
   letter-spacing: 0.06em;
   font-weight: 900;
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  text-align: center;
   text-shadow: 0 6.9px 2.97px rgba(0, 0, 0, 0.31), 0 3.2px 0#154413;
 }
 .download-button {
+  cursor: pointer;
+  border: 0;
+  padding: 1.13rem 3.75rem;
+  background-color: transparent;
   position: absolute;
   top: 0;
   left: calc(50% - 178px);
@@ -196,10 +512,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1.13rem 3.75rem;
-  text-align: center;
-  font-size: 1.63rem;
-  font-family: var(--font-nunito);
 }
 .download-group {
   position: absolute;
@@ -221,7 +533,7 @@
   width: 27.38rem;
   height: 3.88rem;
 }
-.div,
+.div1,
 .enter-your-mobile {
   position: absolute;
   top: 1.06rem;
@@ -274,14 +586,14 @@
 }
 .main-section {
   position: absolute;
-  height: 24.87%;
-  top: 6.91%;
-  bottom: 68.22%;
+  height: 23.6%;
+  top: 3.93%;
+  bottom: 72.47%;
   left: calc(50% - 640px);
   width: 80rem;
   overflow: hidden;
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-hoss-round);
 }
@@ -290,7 +602,7 @@
   top: 0;
   left: 0;
   width: 23.69rem;
-  height: 12.5rem;
+  height: 7.5rem;
   object-fit: cover;
 }
 .nav-bar,
@@ -304,14 +616,14 @@
   top: 0;
   right: 0;
   left: 0;
-  height: 12.5rem;
+  height: 7.5rem;
 }
 .parent-frame {
   position: relative;
   background-color: #093336;
-  height: 180.94rem;
+  height: 190.69rem;
   text-align: center;
-  font-size: var(--font-size-21xl);
-  color: var(--color-gold);
+  font-size: var(--font-size-base);
+  color: var(--color-gold-200);
   font-family: var(--font-hoss-round);
 }
