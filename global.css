@@ -31,8 +31,8 @@ body {
   --font-size-base: 1rem;
   --font-size-21xl: 2.5rem;
   --font-size-5xl: 1.5rem;
-  --font-size-9xl: 1.75rem;
-  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+  --font-size-mid: 1.06rem;
   --font-size-base-5: 0.97rem;
 
   /* Colors */
@@ -43,15 +43,15 @@ body {
   --color-gold-200: #eed920;
 
   /* Gaps */
-  --gap-4xl: 1.44rem;
-  --gap-14xl: 2.06rem;
+  --gap-xs: 0.75rem;
+  --gap-9xl-9: 1.81rem;
 
   /* Paddings */
   --padding-13xl: 2rem;
-  --padding-xs: 0.75rem;
+  --padding-5xl: 1.5rem;
   --padding-9xl: 1.75rem;
 
   /* Border radiuses */
   --br-17xl: 36px;
-  --br-5xl: 24px;
+  --br-2xl: 21px;
 }
