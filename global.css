@@ -16,6 +16,10 @@ input::placeholder {
   font-size:12;
 }
 
+input:focus {
+   outline: none;
+}
+
 body {
   margin: 0;
   line-height: normal;
