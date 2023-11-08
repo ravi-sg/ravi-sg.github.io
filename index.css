@@ -455,25 +455,28 @@
   font-family: var(--font-inherit);
 }
 .vector-icon {
-  width: 5.34%;
-  top: 0.16rem;
-  right: 94.66%;
+  width: 6.27%;
+  top: 0;
+  right: 93.73%;
   max-width: 100%;
   height: 1.13rem;
 }
 .secure-safe-dhamakedaar {
   position: absolute;
   top: 0;
-  left: 8.82%;
+  left: calc(50% - 124px);
   letter-spacing: 0.04em;
   font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 17.88rem;
 }
 .secure-safe {
   position: absolute;
-  width: 80.6%;
-  top: 5.19rem;
-  right: 9.69%;
-  left: 9.71%;
+  width: 85.04%;
+  top: 5.13rem;
+  right: 4.99%;
+  left: 9.97%;
   height: 1.38rem;
 }
 .download-button-image-icon {
@@ -517,7 +520,7 @@
   top: 28.75rem;
   right: 57.27%;
   left: 12.97%;
-  height: 6.56rem;
+  height: 6.5rem;
   text-align: left;
 }
 .mobile-number-input-child {
@@ -551,7 +554,9 @@
   border: 0;
   background-color: transparent;
   left: 5.94rem;
-  width: 21.44rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 20rem;
+  color: #fff;
 }
 .mobile-number-input {
   position: absolute;
