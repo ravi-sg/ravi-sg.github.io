@@ -53,9 +53,9 @@
 .follow-us-on {
   position: absolute;
   top: 0;
-  left: 0.5rem;
+  left: 0.56rem;
   letter-spacing: 0.04em;
-  font-weight: 900;
+  font-weight: 800;
   transform: rotate(0.28deg);
   transform-origin: 0 0;
 }
@@ -91,9 +91,9 @@
 .payment-partners1 {
   position: absolute;
   top: 0;
-  right: 10.99rem;
+  right: 11.06rem;
   letter-spacing: 0.04em;
-  font-weight: 900;
+  font-weight: 800;
   transform: rotate(0.28deg);
   transform-origin: 0 0;
 }
@@ -122,16 +122,15 @@
   object-fit: cover;
 }
 .partners-icon {
-  top: 2.06rem;
+  top: 2.19rem;
   width: 20.69rem;
 }
 .payment-partners {
   position: absolute;
-  top: 9.13rem;
+  top: 9rem;
   right: 3.63rem;
   width: 20.69rem;
-  height: 3.81rem;
-  font-family: var(--font-hoss-round);
+  height: 3.94rem;
 }
 .logo-2-icon {
   position: absolute;
@@ -330,7 +329,7 @@
   font-size: var(--font-size-21xl);
   letter-spacing: 0.04em;
   font-weight: 800;
-  color: var(--color-gold);
+  color: var(--color-gold-300);
   text-align: center;
 }
 .win-real-cash-text {
@@ -359,7 +358,7 @@
   font-size: var(--font-size-21xl);
   letter-spacing: 0.04em;
   font-weight: 800;
-  color: var(--color-gold);
+  color: var(--color-gold-300);
   text-align: center;
 }
 .ludo-description-section {
@@ -465,8 +464,12 @@
   position: absolute;
   top: 0;
   left: calc(50% - 124px);
+  font-size: var(--font-size-base);
   letter-spacing: 0.04em;
   font-weight: 800;
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  text-align: left;
   display: flex;
   align-items: center;
   width: 17.88rem;
@@ -516,12 +519,11 @@
 }
 .download-group {
   position: absolute;
-  width: 29.77%;
-  top: 28.75rem;
-  right: 57.27%;
-  left: 12.97%;
+  width: 86.99%;
+  top: 5.81rem;
+  right: 6.62%;
+  left: 6.39%;
   height: 6.5rem;
-  text-align: left;
 }
 .mobile-number-input-child {
   position: absolute;
@@ -544,8 +546,12 @@
 .span {
   width: 21.69%;
   left: 0;
+  font-size: 1.36rem;
   letter-spacing: 0.04em;
   font-weight: 900;
+  font-family: var(--font-nunito);
+  color: #537c80;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -560,20 +566,25 @@
 }
 .mobile-number-input {
   position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3.88rem;
+}
+.mobile-number-form {
+  position: absolute;
   width: 34.22%;
   top: 22.94rem;
   right: 55%;
   left: 10.78%;
-  height: 3.88rem;
-  font-size: 1.36rem;
-  color: #537c80;
+  height: 12.31rem;
 }
 .bachpan-se,
 .pachpan-tak {
   position: absolute;
   top: 13.93rem;
   left: 8.41rem;
-  font-size: 5rem;
   font-weight: 800;
   text-shadow: 0 13.2px 5.66px rgba(0, 0, 0, 0.23), 0 6.1px 0#000;
   transform: rotate(-0.12deg);
@@ -591,7 +602,6 @@
   width: 40.7rem;
   height: 45rem;
   object-fit: cover;
-  display: none;
 }
 .main-section {
   position: absolute;
@@ -602,7 +612,7 @@
   width: 80rem;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: 5rem;
   color: var(--color-white);
   font-family: var(--font-nunito);
 }
@@ -633,6 +643,6 @@
   height: 185.94rem;
   text-align: center;
   font-size: var(--font-size-base);
-  color: var(--color-gold-200);
+  color: var(--color-gold-300);
   font-family: var(--font-nunito);
 }

@@ -29,7 +29,6 @@ body {
   /* fonts */
   --font-nunito: Nunito;
   --font-inherit: inherit;
-  --font-hoss-round: "Hoss Round";
 
   /* font sizes */
   --font-size-base: 1rem;
@@ -42,9 +41,8 @@ body {
   /* Colors */
   --color-white: #fff;
   --color-gray-100: #001d1f;
+  --color-gold-300: #fff95f;
   --color-gold-100: #ffe927;
-  --color-gold: #fce623;
-  --color-gold-200: #eed920;
 
   /* Gaps */
   --gap-xs: 0.75rem;

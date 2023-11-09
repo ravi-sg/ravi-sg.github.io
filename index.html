@@ -10,10 +10,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Hoss Round:wght@900&display=swap"
-    />
   </head>
   <body>
     <div class="landing-page">
@@ -230,38 +226,42 @@
         </div>
       </section>
       <main class="main-section">
-        <div class="download-group">
-          <div class="secure-safe">
-            <img class="vector-icon" alt="" src="./public/vector.svg" />
+        <form class="mobile-number-form" id="form">
+          <div class="download-group">
+            <div class="secure-safe">
+              <img class="vector-icon" alt="" src="./public/vector.svg" />
 
-            <span class="secure-safe-dhamakedaar"
-              >Secure. Safe. Dhamakedaar Game!</span
-            >
+              <span class="secure-safe-dhamakedaar"
+                >Secure. Safe. Dhamakedaar Game!</span
+              >
+            </div>
+            <button class="download-button" id="submit" type="submit">
+              <img
+                class="download-button-image-icon"
+                alt=""
+                src="./public/downloadbuttonimage.svg"
+              />
+
+              <div class="download-1ludo">Download 1Ludo</div>
+            </button>
           </div>
-          <button class="download-button" id="downloadButton">
+          <div class="mobile-number-input">
             <img
-              class="download-button-image-icon"
+              class="mobile-number-input-child"
               alt=""
-              src="./public/downloadbuttonimage.svg"
+              src="./public/rectangle-29524@2x.png"
             />
 
-            <div class="download-1ludo">Download 1Ludo</div>
-          </button>
-        </div>
-        <div class="mobile-number-input">
-          <img
-            class="mobile-number-input-child"
-            alt=""
-            src="./public/rectangle-29524@2x.png"
-          />
-
-          <span class="span">+91</span>
-          <input
-            class="phone-number-input"
-            placeholder="Enter your mobile number"
-            type="text"
-          />
-        </div>
+            <span class="span">+91</span>
+            <input
+              class="phone-number-input"
+              name="mobile-number"
+              id="mobile-number"
+              placeholder="Enter your mobile number"
+              type="text"
+            />
+          </div>
+        </form>
         <span class="pachpan-tak">Pachpan Tak!</span>
         <span class="bachpan-se">Bachpan Se ...</span>
         <img
@@ -275,13 +275,5 @@
       </nav>
     </div>
 
-    <script>
-      var downloadButton = document.getElementById("downloadButton");
-      if (downloadButton) {
-        downloadButton.addEventListener("click", function () {
-          window.open("https://sahajgaming.com/");
-        });
-      }
-    </script>
   </body>
 </html>
