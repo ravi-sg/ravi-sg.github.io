@@ -602,6 +602,7 @@
   width: 40.7rem;
   height: 45rem;
   object-fit: cover;
+  display: none;
 }
 .main-section {
   position: absolute;
